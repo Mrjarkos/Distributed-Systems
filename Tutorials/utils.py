@@ -17,6 +17,3 @@ def plot_complex(data, title: str, figsize=(4,4)):
     plt.xlabel("Real")
     plt.ylabel("Img")
     return fig
-
-def annotate(data:tuple, text:str):
-    
